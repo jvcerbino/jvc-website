@@ -51,6 +51,14 @@ img {
     color: blue;
 } 
 
+.logo img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -122,6 +130,31 @@ img {
     font-size: 18px;
     font-weight: 300;
   }
+
+  .contact-buttons-content {
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+
+  .contact-buttons-content ul{
+    display: flex;
+  }
+
+  .contact-buttons-content ul li a {
+    padding: 10px 20px;
+    display: block;
+    margin-right: 10px;
+  }
+
+  .btn img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .btn img:hover{
+    transform: scale(1.3);
+  }
   
   .projects-header {
     font-weight: 600;
@@ -129,3 +162,4 @@ img {
     justify-content: center;
     display: flex;
   }
+
